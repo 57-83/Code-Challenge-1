@@ -1,3 +1,6 @@
+//// Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits
+//Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary
+//net salary = gross salary - deductions
 const prompt = require("prompt-sync")();
 var basic_salary = parseInt(basic_salary);
 basic_salary = prompt("Enter your basic salary");
@@ -59,3 +62,23 @@ net_income === parseInt(gross_salary - Total_deduction);
 console.log("Your gross salary is " + gross_salary);
 console.log("Total amount to be deducted is" + Total_deduction);
 console.log("Your net income  is " + net_income);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
