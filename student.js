@@ -18,6 +18,12 @@ else if (marks >= 60 && marks <= 79) {
 //marks between 49 and 40
 else if (marks >= 40 && marks <= 49) {
   console.log("D");
-} else {
-  console.log("E");
+
 }
+//marks below 40
+else if (marks < 40 && marks >=0){
+  console.log("E")
+}
+//marks thats not between 0 and 100
+else {
+  console.log("Invalid marks")}
